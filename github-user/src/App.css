@@ -1,10 +1,8 @@
 .App {
+  background-image: url('https://images.unsplash.com/photo-1522684487319-f574cd5937cf?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=2100&q=80');
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-}
 
 .App-header {
   background-color: #282c34;
@@ -19,4 +17,22 @@
 
 .App-link {
   color: #09d3ac;
+}
+
+.FollowersList {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.FollowerImage {
+  width: 300px;
+  height: 300px;
+  padding: 10px 10px 0;
+}
+
+.FollowersTitle {
+  width: 100%;
+  text-align: left;
+  margin: 0 5%;
 }
